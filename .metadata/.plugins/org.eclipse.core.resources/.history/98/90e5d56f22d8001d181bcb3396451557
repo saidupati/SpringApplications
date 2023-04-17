@@ -1,0 +1,5 @@
+package com.ojas.entity;
+
+public class StudentEntity {
+
+}

@@ -1,0 +1,26 @@
+package com.ojas.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ojas.entity.User;
+import com.ojas.repository.UserRepo;
+
+public class UserServiceImpl implements UserService{
+
+	@Autowired
+	private UserRepo repo;
+	@Override
+	public String addUser(User user) {
+		// TODO Auto-generated method stub
+		User save = repo.save(user);
+		
+		return null;
+	}
+
+	@Override
+	public boolean verifyUser(String uname, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

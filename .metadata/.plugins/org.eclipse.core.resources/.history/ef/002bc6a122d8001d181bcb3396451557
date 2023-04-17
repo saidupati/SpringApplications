@@ -1,0 +1,11 @@
+package com.ojas.entity;
+
+import javax.persistence.Entity;
+
+public class StudentEntity {
+
+	@Entity
+	private int sid;
+	private String sname;
+	private String sadd;
+}

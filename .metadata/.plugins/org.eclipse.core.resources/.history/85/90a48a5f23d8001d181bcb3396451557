@@ -1,0 +1,35 @@
+package com.ojas.service;
+
+public class StudentServiceImpl implements StudentService {
+
+	@Override
+	public int addStudent() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public <List> String viewAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String viewStudent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int editStudent() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean deleteStudent() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

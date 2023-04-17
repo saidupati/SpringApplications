@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringDataJpaRepository&apos; to &apos;SpringDataJpaRepositoryRegistration&apos;" description="Rename resource &apos;SpringDataJpaRepository&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringDataJpaRepository" name="SpringDataJpaRepositoryRegistration" stamp="1681213055995" updateReferences="true"/>
+</session>

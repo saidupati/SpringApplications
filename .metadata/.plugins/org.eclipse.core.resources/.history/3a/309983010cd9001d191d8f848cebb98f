@@ -1,0 +1,5 @@
+package com.ojas.service;
+
+public class DailyMailSender {
+
+}

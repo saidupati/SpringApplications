@@ -1,0 +1,36 @@
+package com.ojas.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ojas.entity.StudentEntity;
+import com.ojas.service.StudentServiceImpl;
+
+@Controller
+public class StudentController {
+
+	@Autowired
+	private StudentServiceImpl impl;
+	@RequestMapping("/")
+	public String addStudent(Model m) {
+	
+		StudentEntity s=new StudentEntity();
+		m.addAttribute("student", s);
+		return "index";
+		
+	}
+	public String handleSave() {
+		String addStudent = impl.addStudent();
+		if(addStudent!=null) {
+			return "success";
+		}
+		else {
+			return "not success";
+		}
+		return null;
+		
+	}
+}

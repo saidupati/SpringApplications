@@ -1,0 +1,12 @@
+package com.ojas.service;
+
+import com.ojas.entity.StudentEntity;
+
+public interface StudentService {
+
+	public String addStudent(StudentEntity student);
+	public <List> StudentEntity viewAllStudents();
+	public StudentEntity viewStudent();
+	public int editStudent();
+	public boolean deleteStudent();
+}

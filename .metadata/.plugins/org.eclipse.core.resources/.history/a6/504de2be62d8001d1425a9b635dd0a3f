@@ -1,0 +1,27 @@
+package com.ojas.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ojas.entity.User;
+import com.ojas.service.UserServiceImpl;
+
+@Controller
+public class UserController {
+
+	@Autowired
+	private UserServiceImpl impl;
+	@RequestMapping("/")
+	public String adduserDetails(Model m) {
+		User u=new User();
+		String addUser = impl.addUser(u);
+		m.addAttribute("user", u);
+		return "register";
+		
+	}
+	public String saveUserDetails() {
+		
+	}
+}

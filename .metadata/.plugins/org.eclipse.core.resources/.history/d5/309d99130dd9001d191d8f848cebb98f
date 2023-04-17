@@ -1,0 +1,5 @@
+package com.ojas.config;
+
+public class MailScheduler {
+
+}
