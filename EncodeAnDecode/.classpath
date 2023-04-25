@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BusReservationPart1-main/src/main/java"/>
+	<classpathentry kind="src" path="BusReservationPart1-main/src/test/java"/>
+	<classpathentry kind="src" path="BusReservationSystemPart2-main/src/main/java"/>
+	<classpathentry kind="src" path="BusReservationSystemPart2-main/src/test/java"/>
+	<classpathentry kind="src" path="EncodeAnDecode/src"/>
+	<classpathentry kind="lib" path="BusReservationPart1-main/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="BusReservationSystemPart2-main/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="BusReservationPart1-main/target/classes"/>
+</classpath>

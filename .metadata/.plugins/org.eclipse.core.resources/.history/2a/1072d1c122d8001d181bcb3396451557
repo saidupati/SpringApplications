@@ -1,5 +1,0 @@
-package com.ojas.repository;
-
-public interface StudentRepository {
-
-}

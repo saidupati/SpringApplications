@@ -1,0 +1,6 @@
+INSERT INTO role (description, name) VALUES ('Admin', 'ADMIN');
+INSERT INTO role (description, name) VALUES ('User', 'USER');
+INSERT INTO role (description, name) VALUES ('Manager', 'MNGR');
+
+
+

@@ -1,5 +1,0 @@
-package com.ojas.service;
-
-public interface UserService {
-
-}

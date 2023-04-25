@@ -1,9 +1,0 @@
-package com.ojas.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.ojas.entity.StudentEntity;
-
-public interface StudentRepository extends JpaRepository<StudentEntity, Integer>{
-
-}
